@@ -1,0 +1,63 @@
+{
+  "crops": [
+    "apple",
+    "banana",
+    "chickpea",
+    "coconut",
+    "cotton",
+    "grapes",
+    "groundnut",
+    "jute",
+    "lentil",
+    "maize",
+    "mungbean",
+    "muskmelon",
+    "orange",
+    "papaya",
+    "pomegranate",
+    "rice",
+    "sugarcane",
+    "tomato",
+    "watermelon",
+    "wheat"
+  ],
+  "features": [
+    "N",
+    "P",
+    "K",
+    "temperature",
+    "humidity",
+    "ph",
+    "rainfall"
+  ],
+  "feature_ranges": {
+    "N": {
+      "min": 5.0,
+      "max": 130.0
+    },
+    "P": {
+      "min": 5.0,
+      "max": 185.0
+    },
+    "K": {
+      "min": 0.0,
+      "max": 105.0
+    },
+    "temperature": {
+      "min": 13.2,
+      "max": 37.0
+    },
+    "humidity": {
+      "min": 35.0,
+      "max": 94.0
+    },
+    "ph": {
+      "min": 3.5,
+      "max": 7.84
+    },
+    "rainfall": {
+      "min": 8.5,
+      "max": 350.0
+    }
+  }
+}
